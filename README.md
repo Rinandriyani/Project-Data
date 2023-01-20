@@ -64,6 +64,7 @@ In this project, I tried to predict bitcoin price based on volume and market cap
 #### Project 4 - Energy Produced Analysis
 
 #### Project 5 - Analysis of World Happiness in 2022
+#### [Project Notebook: Analysis of World Happiness in 2022](https://nbviewer.org/github/Rinandriyani/Ririn_Andriyani/blob/main/Project%20Notebook/World%20Happines%20Report%202022.ipynb)
 
 #### Project 6 - Video Games Sales Analysis with Tableau
 In this project, I visualize video games sales. Data obtained from vgchartz.com and taken from sales of more than 100,000 copies. From this visualization, we can find out which video game publishers have the biggest sales and the biggest sales compared to other publishers. Then it can also analyze the relationship between video game user review scores and their rankings. Effect of review scores on sales. Most popular video game genre. And the level of sales of video games in various countries. This data is important to use as a reference that determines the sales process in the future.
