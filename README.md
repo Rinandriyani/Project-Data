@@ -21,7 +21,7 @@
    
 
 ## Work Experience:
-#### 1. [Astronomy ITB](https://www.as.itb.ac.id/id/) | Asistant Researcher | Pontianak `Feb-Nov 2022`
+#### 1. [Astronomy ITB](https://www.as.itb.ac.id/id/) | Assistant Researcher | Pontianak `Feb-Nov 2022`
    - Develop problems of research and research steps
    - Collect, process and analyze data with SQL, Python, and Data Visualization Tools
    - Present research reports
