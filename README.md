@@ -56,6 +56,7 @@ Gold Reserves by Country since 2002 up to Q3 2022. The gold reserve data come fr
 
 #### Project 2 - Bitcoin Prediction 
 
+In this project, I tried to predict bitcoin prices based on volume and market cap data using 3 models, namely regression, random forest, and XGBoost. This data is taken from CoinGecko API. Price history is available on a daily basis from Jan 1, 2015. From the three models, it is found that the regression model has the lowest mean absolute error, so this model is better than the other 2 models for predicting bitcoin prices.
 #### [Project Notebook: Bitcoin Prediction](https://nbviewer.org/github/Rinandriyani/Ririn_Andriyani/blob/main/Project%20Notebook/Bitcoin_Prediction.ipynb)
 
 #### Project 3 - Diabetes Prediction
