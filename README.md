@@ -56,6 +56,8 @@ Gold Reserves by Country since 2002 up to Q3 2022. The gold reserve data come fr
 
 #### Project 2 - Bitcoin Prediction 
 
+#### [Project Notebook: Bitcoin Prediction](https://nbviewer.org/github/Rinandriyani/Ririn_Andriyani/blob/main/Project%20Notebook/Bitcoin_Prediction.ipynb)
+
 #### Project 3 - Diabetes Prediction
 
 #### Project 4 - Energy Produced Analysis
