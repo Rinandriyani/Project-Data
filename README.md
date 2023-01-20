@@ -64,6 +64,7 @@ Gold Reserves by Country since 2002 up to Q3 2022. The gold reserve data come fr
 
 #### Project 6 - Video Games Sales Analysis
 
+
 #### Project 7 - Number of Crimes in Chicago over 24 hours in 2022
 
 [webdev]: https://github.com/Rinandriyani/Ririn_Andriyani
