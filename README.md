@@ -47,7 +47,23 @@
 <br />
 <br />
 
----
+## Data Science Portfolio Projects
+**Description:** 
+#### Project 1 - World Gold Reserves from 2002-Q3 2022 with Tableau
 
+Gold Reserves by Country since 2002 up to Q3 2022. The gold reserve data come from gold.org. In this project, I visualize the distribution of actual gold reserves in the world by country. From this visualization, we can find out which countries currently have the most gold reserves to the least as a percentage of the total. The gold reserve map is expected to give us intuition about the relationship between geographical location and the amount of gold reserves. For the purpose to know the change in gold reserves in the world over a certain period of time (2002-Q3 2022), I made a visualization of changes in gold reserves over that period. Thus, countries that have significant changes to gold reserves can be identified easily.
+#### [Project Tableau: World Gold Reserves from 2002-Q3 2022](https://public.tableau.com/app/profile/ririn.andriyani/viz/WorldGoldReservesfrom2002-Q32022/Dashboard1)
+
+#### Project 2 - Bitcoin Prediction 
+
+#### Project 3 - Diabetes Prediction
+
+#### Project 4 - Energy Produced Analysis
+
+#### Project 5 - Analysis of World Happiness in 2022
+
+#### Project 6 - Video Games Sales Analysis
+
+#### Project 7 - Number of Crimes in Chicago over 24 hours in 2022
 
 [webdev]: https://github.com/Rinandriyani/Ririn_Andriyani
