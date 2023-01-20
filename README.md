@@ -62,7 +62,9 @@ Gold Reserves by Country since 2002 up to Q3 2022. The gold reserve data come fr
 
 #### Project 5 - Analysis of World Happiness in 2022
 
-#### Project 6 - Video Games Sales Analysis
+#### Project 6 - Video Games Sales Analysis with Tableau
+In this project, I visualize video games sales. Data obtained from vgchartz.com and taken from sales of more than 100,000 copies. From this visualization, we can find out which video game publishers have the biggest sales and the biggest sales compared to other publishers. Then it can also analyze the relationship between video game user review scores and their rankings. Effect of review scores on sales. Most popular video game genre. And the level of sales of video games in various countries. This data is important to use as a reference that determines the sales process in the future.
+#### [Project Tableau: Video Games Sales Analysis](https://public.tableau.com/app/profile/ririn.andriyani/viz/VideoGamesSalesAnalysis_16738623051770/Dashboard1#1)
 
 
 #### Project 7 - Number of Crimes in Chicago over 24 hours in 2022
