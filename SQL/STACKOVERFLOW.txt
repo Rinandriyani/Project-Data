@@ -1,0 +1,15 @@
+-- To get Every Question asked on Stack Overflow get how many comments
+
+WITH c AS
+(
+SELECT parent_id, COUNT(*) as num_answers
+FROM `bigquery-public-data.stackoverflow.posts_answers` 
+GROUP BY parent_id
+)
+SELECT q.id as question_id, q.owner_display_name, q.title, c.num_answers
+FROM `bigquery-public-data.stackoverflow.posts_questions` AS q
+LEFT JOIN c
+ON q.id = c.parent_id
+WHERE EXTRACT(DATE FROM q.creation_date) = '2012-01-01'
+ORDER BY c.num_answers DESC
+

@@ -1,0 +1,17 @@
+---This query searches website the repository hosted and the number of them
+
+SELECT host_type, COUNT(1) as num_host_type
+FROM `bigquery-public-data.libraries_io.repositories`
+GROUP BY host_type
+HAVING COUNT(1) > 0
+
+---With this query, we can see which repository websites are widely used: 'GitHub'
+
+---This query searches Platform of repository used and the number of them
+
+SELECT manifest_platform, COUNT(1) as num_platform
+FROM `bigquery-public-data.libraries_io.repository_dependencies`
+GROUP BY manifest_platform
+HAVING COUNT(1) > 0
+ORDER BY num_platform
+---With this query, we can see which Platform are widely used: 'npm'

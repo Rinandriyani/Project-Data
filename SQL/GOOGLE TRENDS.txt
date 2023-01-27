@@ -1,0 +1,19 @@
+-- TOP TERM IN GOOGLE (GOOGLE TRENDS)
+-- This query shows a list of the daily top Google Search terms.
+-- Data from bigquery-public-data
+
+
+SELECT
+   refresh_date AS Day,
+   term AS Top_Term,
+       -- These search terms are in the top 1 in the US each day from early 2023 until now.
+   rank,
+FROM `bigquery-public-data.google_trends.top_terms`
+WHERE
+   rank = 1
+       -- Choose only the top term each day.
+   AND refresh_date >= '2023-01-01'
+       -- Filter from early 2023.
+GROUP BY Day, Top_Term, rank
+ORDER BY Day DESC
+   -- Show the days in reverse chronological order.

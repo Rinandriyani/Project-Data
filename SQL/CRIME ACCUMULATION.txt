@@ -1,0 +1,24 @@
+--to find out the number of criminal cases 
+-- occurring in each hour of accumulation per year (2018)
+WITH RelevantRides AS
+(
+  SELECT EXTRACT(HOUR FROM date) AS hour_of_day
+  FROM `bigquery-public-data.chicago_crime.crime`
+  WHERE date > '2018-01-01' AND date < '2018-12-31' 
+  )
+SELECT hour_of_day, COUNT(1) AS num_cases
+FROM RelevantRides
+GROUP BY hour_of_day
+ORDER BY hour_of_day
+
+----------------------------------------------------
+WITH RelevantRides AS
+(
+  SELECT EXTRACT(HOUR FROM date) AS hour_of_day
+  FROM `bigquery-public-data.chicago_crime.crime`
+  WHERE date > '2022-01-01' AND date < '2022-12-31' AND primary_type='CRIMINAL SEXUAL ASSAULT'
+  )
+SELECT hour_of_day, COUNT(1) AS num_cases
+FROM RelevantRides
+GROUP BY hour_of_day
+ORDER BY hour_of_day
